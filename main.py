@@ -1,5 +1,4 @@
 import time
-
 com = input("universe/milky_way/Sun_system/earth/living/human: ")
 if com == "Sudo Login":
     print(" ")
@@ -15,18 +14,32 @@ if passw == "Password":
 
 else:
     print("Auth failure")
+
 if passw == "Password":
+    time.sleep(1)
+    print()
+    print("What to change?")
     time.sleep(1)
     print()
     print("A. Get money")
     time.sleep(1)
     print()
-    print("B. Get lots of money")
+    print("B. Nothing")
     time.sleep(1)
     print()
     action1 = input("Your answer: ")
 
-if action1 == "A":
-    print("You have a good life")
-if action1 == "B":
-    ("You are rich and have a very good life")
+    if action1 == "A":
+      print()
+    ma1 = input("How much: ")
+    time.sleep(1)
+    print()
+    name2 = input("Bank account name: ")
+    print()
+    print("Processing...")
+    time.sleep(1)
+    print()
+    print(f"${ma1} added to {name2}")
+    if action1 == "B":
+        print("Nothing changed")
+    
