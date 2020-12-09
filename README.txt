@@ -1,2 +1,3 @@
 Just some code that I wrote for fun
 if you want to use it for anything just include a link to the github page somewhere...
+main.py simulates conversation taking input and provide related output
